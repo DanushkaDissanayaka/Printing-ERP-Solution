@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #ECECEC;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.infsystem.infsystem.MainController">
+    <children>
+        <AnchorPane layoutX="200.0" prefHeight="768.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <StackPane fx:id="subPane" prefHeight="768.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="768.0" prefWidth="200.0" style="-fx-background-color: #0647A5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="14.0" layoutY="148.0" onMouseClicked="#loadProduction" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Production" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/frameprint-128.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+                <Label layoutX="14.0" layoutY="308.0" onMouseClicked="#loadFinance" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Finance" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/finance.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+                <Label layoutX="14.0" layoutY="388.0" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Salary" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/salary.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+                <Label layoutX="14.0" layoutY="468.0" onMouseClicked="#loadAdmin" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Admin" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/admin.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+                <Label layoutX="14.0" layoutY="612.0" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Configuration" textFill="WHITE" AnchorPane.bottomAnchor="108.0" AnchorPane.leftAnchor="14.0">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/settings.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+                <Label layoutX="14.0" layoutY="228.0" onMouseClicked="#LoadInventry" prefHeight="48.0" prefWidth="190.0" styleClass="mainLable" stylesheets="@../styles/main.css" text="Inventry" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Light" size="24.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/product-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+            <Label layoutX="14.0" layoutY="53.0" prefHeight="28.0" prefWidth="37.0" text="Name" textFill="WHITE" />
+            <Label layoutX="14.0" layoutY="81.0" prefHeight="28.0" prefWidth="73.0" text="UserID" textFill="WHITE" />
+            <Label layoutX="60.0" layoutY="53.0" prefHeight="28.0" prefWidth="133.0" text="Danushka Dissanayaka" textFill="WHITE" />
+            <Label layoutX="58.0" layoutY="81.0" prefHeight="28.0" prefWidth="133.0" text="US0012" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.infsystem.infsystem.finance.INV_Return_DetailsController">
+   <children>
+      <Label layoutX="21.0" layoutY="26.0" prefHeight="34.0" prefWidth="131.0" text="Invoice No">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="26.0" prefHeight="34.0" prefWidth="131.0" text="Invoice Date">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TableView layoutX="11.0" layoutY="68.0" prefHeight="278.0" prefWidth="779.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <columns>
+            <TableColumn prefWidth="120.0" text="Product Code" />
+            <TableColumn prefWidth="203.0" text="Product Name" />
+            <TableColumn prefWidth="169.0" text="Return QTY" />
+            <TableColumn prefWidth="98.0" text="Unit Price" />
+            <TableColumn prefWidth="147.0" text="Total Price" />
+         </columns>
+      </TableView>
+      <Label layoutX="335.0" layoutY="26.0" prefHeight="34.0" prefWidth="131.0" text="Reference No">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="481.0" layoutY="26.0" prefHeight="34.0" prefWidth="131.0" text="Return Entered Date">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

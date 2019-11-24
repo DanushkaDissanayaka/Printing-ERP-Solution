@@ -1,0 +1,19 @@
+.bqckgroundd {
+    -fx-background-color: #3C3F41;
+}
+
+.Title {
+    -fx-font-family:system;
+    -fx-font-size:20;
+}
+
+.closeIcon {
+    -fx-fill :#2196F3;
+}
+
+.closeIcon:hover {
+    -fx-fill :#DC3545;
+    -fx-cursor: hand;
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}

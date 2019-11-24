@@ -1,0 +1,68 @@
+*{
+    -fx-primary:#007BFF;
+    -fx-info:#17A2B8;
+}
+
+.infoLable{
+    -fx-font-family:system;
+    -fx-font-size:13;
+}
+
+.text-field {
+    -fx-font-family:system;
+    -fx-font-size:13;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.date-picker{
+    /*    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+        -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+        -fx-background-radius: 3px, 3px, 2px, 1px;*/
+    -fx-background-color:  #ECECEC;
+    /*-fx-background-color:  transparents;*/
+}
+
+.btnPrimary{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: white;
+}
+
+.btnPrimary .jfx-rippler{
+    -jfx-rippler-fill:rgba(100,255,100,0.5);
+}
+
+.btnWarning{
+    -fx-background-color: #ffc107;
+    -fx-text-fill: white;
+}
+
+.btnWarning .jfx-rippler{
+    -jfx-rippler-fill:rgba(255,100,100,0.5);
+}
+
+.btnDanger{
+    -fx-background-color: #DC3545;
+    -fx-text-fill: white;
+    /*-jfx-rippler-fill: #FF0000;*/
+    -jfx-ripplerFill:"#ae0e0ee3"
+}
+
+.btnDanger .jfx-rippler{
+    -jfx-rippler-fill:rgba(255,100,100,0.5);
+}
+.btn:pressed {
+    -fx-scale-y: 1.05;
+    -fx-scale-x: 1.05;
+}
+.btn:hover{
+    /*-fx-cursor: hand;*/
+}
+
+.btn-round {
+    -fx-background-radius: 20px;
+}

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.infsystem.infsystem.User.CreateEditPersonController">
+   <children>
+      <AnchorPane fx:id="uiPane" layoutX="-2.0" layoutY="-2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="35.0" layoutY="68.0" prefHeight="28.0" prefWidth="100.0" text="Company Name" AnchorPane.leftAnchor="35.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="115.0" prefHeight="28.0" prefWidth="100.0" text="Name" AnchorPane.leftAnchor="35.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="clientNameTitle" layoutX="165.0" layoutY="115.0" prefHeight="29.0" prefWidth="77.0" AnchorPane.leftAnchor="165.0" />
+            <TextField fx:id="companyName" layoutX="165.0" layoutY="70.0" prefHeight="29.0" prefWidth="305.0" AnchorPane.leftAnchor="165.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="273.0" layoutY="115.0" prefHeight="28.0" prefWidth="70.0" text="First Name" AnchorPane.leftAnchor="273.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientFname" layoutX="347.0" layoutY="115.0" prefHeight="25.0" prefWidth="180.0" AnchorPane.leftAnchor="347.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="549.0" layoutY="115.0" prefHeight="28.0" prefWidth="69.0" text="Last Name" AnchorPane.leftAnchor="549.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientLname" layoutX="624.0" layoutY="115.0" prefHeight="25.0" prefWidth="180.0" AnchorPane.leftAnchor="624.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="nic" layoutX="166.0" layoutY="199.0" prefHeight="25.0" prefWidth="180.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <DatePicker fx:id="dob" layoutX="165.0" layoutY="160.0" prefHeight="29.0" />
+            <Label layoutX="35.0" layoutY="158.0" prefHeight="28.0" prefWidth="72.0" text="Brith day">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="200.0" prefHeight="28.0" prefWidth="70.0" text="N.I.C">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="237.0" prefHeight="28.0" prefWidth="72.0" text="Job Title" AnchorPane.leftAnchor="35.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientPosition" layoutX="165.0" layoutY="239.0" prefHeight="29.0" prefWidth="305.0" AnchorPane.leftAnchor="165.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="35.0" layoutY="271.0" prefHeight="28.0" prefWidth="160.0" text="Contact Details">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="312.0" prefHeight="28.0" prefWidth="96.0" text="Mobile">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientMobile" layoutX="120.0" layoutY="313.0" prefHeight="25.0" prefWidth="150.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="33.0" layoutY="349.0" prefHeight="28.0" prefWidth="96.0" text="Home/Office">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientLandPhone" layoutX="120.0" layoutY="350.0" prefHeight="25.0" prefWidth="150.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="470.0" layoutY="271.0" prefHeight="28.0" prefWidth="52.0" text="Fax" AnchorPane.rightAnchor="302.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientFax" layoutX="542.0" layoutY="272.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.rightAnchor="32.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="470.0" layoutY="310.0" prefHeight="28.0" prefWidth="52.0" text="E-Mail" AnchorPane.rightAnchor="302.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientEmail" layoutX="542.0" layoutY="310.0" prefHeight="30.0" prefWidth="250.0" AnchorPane.rightAnchor="32.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="470.0" layoutY="350.0" prefHeight="28.0" prefWidth="58.0" text="Website" AnchorPane.rightAnchor="296.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientWebSite" layoutX="542.0" layoutY="350.0" prefHeight="30.0" prefWidth="250.0" AnchorPane.rightAnchor="32.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <ChoiceBox fx:id="addressType" layoutX="23.0" layoutY="419.0" prefHeight="29.0" prefWidth="77.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="419.0" />
+            <Label layoutX="112.0" layoutY="390.0" prefHeight="28.0" prefWidth="68.0" text="No.">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientNo" layoutX="108.0" layoutY="419.0" prefHeight="29.0" prefWidth="79.0" AnchorPane.leftAnchor="108.0" AnchorPane.topAnchor="419.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="200.0" layoutY="390.0" prefHeight="28.0" prefWidth="68.0" text="Adress 01">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientAdd01" layoutX="199.0" layoutY="421.0" prefHeight="29.0" prefWidth="158.0" AnchorPane.leftAnchor="199.0" AnchorPane.topAnchor="419.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="396.0" layoutY="390.0" prefHeight="28.0" prefWidth="84.0" text="Adress 02">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientAdd02" layoutX="371.0" layoutY="422.0" prefHeight="29.0" prefWidth="144.0" AnchorPane.leftAnchor="371.0" AnchorPane.topAnchor="419.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="557.0" layoutY="390.0" prefHeight="28.0" prefWidth="84.0" text="Adress 03">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientAdd03" layoutX="523.0" layoutY="422.0" prefHeight="29.0" prefWidth="152.0" AnchorPane.leftAnchor="523.0" AnchorPane.topAnchor="419.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="687.0" layoutY="390.0" prefHeight="28.0" prefWidth="84.0" text="City">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientCity" layoutX="687.0" layoutY="422.0" prefHeight="29.0" prefWidth="129.0" AnchorPane.leftAnchor="687.0" AnchorPane.topAnchor="419.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TableView fx:id="clientAddressTable" layoutX="15.0" layoutY="468.0" prefHeight="200.0" prefWidth="796.0" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="468.0">
+               <columns>
+                  <TableColumn fx:id="clientAddNo" prefWidth="75.0" text="No." />
+                  <TableColumn fx:id="clientAdd01Column" prefWidth="143.0" text="Address 01" />
+                  <TableColumn fx:id="clientAdd02Column" prefWidth="122.0" text="Address 02" />
+                  <TableColumn fx:id="clientAdd03Column" prefWidth="154.0" text="Address 03" />
+                  <TableColumn fx:id="clientAddCityColumn" prefWidth="258.0" text="City" />
+               </columns>
+            </TableView>
+            <Button layoutX="710.0" layoutY="687.0" mnemonicParsing="false" onMouseClicked="#addAddress" prefHeight="30.0" prefWidth="95.0" text="Add to Table" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="19.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="599.0" layoutY="687.0" mnemonicParsing="false" onMouseClicked="#clearAddressTable" prefHeight="30.0" prefWidth="95.0" text="Clear Table" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="130.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="35.0" layoutY="27.0" prefHeight="28.0" prefWidth="38.0" text="Type" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="25.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="personType" layoutX="165.0" layoutY="27.0" prefHeight="29.0" prefWidth="100.0" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="25.0" />
+            <JFXButton layoutX="666.0" layoutY="33.0" onAction="#save" prefHeight="40.0" prefWidth="129.0" styleClass="btnPrimary" stylesheets="@../../styles/Styles.css" text="Save" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="33.0" />
+            <Button layoutX="437.0" layoutY="716.0" mnemonicParsing="false" onAction="#custromerAccount" onMouseClicked="#clearAddressTable" prefHeight="30.0" prefWidth="144.0" text="Accounts Setup" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="243.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

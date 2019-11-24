@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="397.0" prefWidth="824.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.infsystem.infsystem.stock.ViewProductDetailsController">
+   <children>
+      <AnchorPane prefHeight="403.0" prefWidth="824.0">
+         <children>
+            <Label layoutX="27.0" layoutY="30.0" prefHeight="29.0" prefWidth="109.0" text="Product Code">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="70.0" prefHeight="29.0" prefWidth="109.0" text="Product Name">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="110.0" prefHeight="29.0" prefWidth="109.0" text="Product Type">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="150.0" prefHeight="29.0" prefWidth="109.0" text="Product Language">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="195.0" prefHeight="29.0" prefWidth="109.0" text="Subject Name">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="235.0" prefHeight="29.0" prefWidth="109.0" text="Product Author">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="270.0" prefHeight="29.0" prefWidth="109.0" text="Triger Limit">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TableView layoutX="278.0" layoutY="164.0" prefHeight="200.0" prefWidth="531.0" AnchorPane.rightAnchor="15.0">
+              <columns>
+                <TableColumn prefWidth="101.0" text="Chapter Code" />
+                <TableColumn prefWidth="226.0" text="Chapter Name" />
+                  <TableColumn prefWidth="133.0" text="Nos Pages for Chapter" />
+              </columns>
+            </TableView>
+            <Label layoutX="291.0" layoutY="31.0" prefHeight="29.0" prefWidth="129.0" text="Product Billing Price">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="291.0" layoutY="71.0" prefHeight="29.0" prefWidth="137.0" text="Product End User Price">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="291.0" layoutY="111.0" prefHeight="29.0" prefWidth="137.0" text="Product Cost Per Unit">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="31.0" prefHeight="29.0" prefWidth="109.0" text="CH-MCQ-2017">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="71.0" prefHeight="29.0" prefWidth="109.0" text="Chemistry MCQ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="111.0" prefHeight="29.0" prefWidth="109.0" text="MCQ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="151.0" prefHeight="29.0" prefWidth="109.0" text="SInhala">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="196.0" prefHeight="29.0" prefWidth="109.0" text="Chemistry">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="236.0" prefHeight="29.0" prefWidth="109.0" text="Product Author">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="271.0" prefHeight="29.0" prefWidth="109.0" text="100">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="448.0" layoutY="33.0" prefHeight="29.0" prefWidth="129.0" text="Rs.120">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="448.0" layoutY="73.0" prefHeight="29.0" prefWidth="137.0" text="Rs.120">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="448.0" layoutY="113.0" prefHeight="29.0" prefWidth="137.0" text="Rs.120">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="302.0" prefHeight="29.0" prefWidth="109.0" text="Minimum Limit">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="303.0" prefHeight="29.0" prefWidth="109.0" text="100">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="332.0" prefHeight="29.0" prefWidth="109.0" text="Maximum Limit">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="333.0" prefHeight="29.0" prefWidth="109.0" text="100">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="585.0" layoutY="32.0" prefHeight="29.0" prefWidth="109.0" text="Total Inhand Qty">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="696.0" layoutY="33.0" prefHeight="29.0" prefWidth="71.0" text="1000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

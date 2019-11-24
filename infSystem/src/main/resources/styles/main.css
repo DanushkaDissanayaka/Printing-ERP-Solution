@@ -1,0 +1,11 @@
+.mainLable:hover {
+    -fx-background-color: rgba(0,40,158,0.6);
+    -fx-border-radius: 20px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.mainLable:pressed {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
