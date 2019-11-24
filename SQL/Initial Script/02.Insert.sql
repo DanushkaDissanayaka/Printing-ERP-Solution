@@ -61,12 +61,12 @@ insert into material_category (id, name)
         (4,"stationary");
         
         
-insert into material (id, name, categoryId, availableQty, pendingQty, brand)
+insert into material (id, name, categoryId, availableQty, pendingQty, brand,trigerLimit)
 	values
-		(1,"A4",2,100,100,"JK Easy Copier"),
-        (2,"Black and White",1,NUll,200,"Five Stars"),
-        (3,"Blue Pen",4,100,Null,"Atlas"),
-        (4,"dimay",2,100,100,"JK Easy Copier");
+		(1,"A4",2,100,100,"JK Easy Copier",10),
+        (2,"Black and White",1,NUll,200,"Five Stars",20),
+        (3,"Blue Pen",4,100,Null,"Atlas",30),
+        (4,"dimay",2,100,100,"JK Easy Copier",10);
         
         
 insert into material_suplier(suplierId, materialId, price)

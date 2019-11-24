@@ -1,3 +1,4 @@
+DROP DATABASE inf;
 CREATE DATABASE inf;
 use inf;
 
@@ -117,7 +118,8 @@ CREATE TABLE material(
     availableQty INT,
     pendingQty INT,
     brand VARCHAR(60),
-    description VARCHAR(128),
+    description VARCHAR(1024),
+    trigerLimit INT,
     CONSTRAINT pk_material PRIMARY KEY(id),
     CONSTRAINT pk_material_materialCatogory FOREIGN KEY (categoryId) REFERENCES material_category(id)
 );
